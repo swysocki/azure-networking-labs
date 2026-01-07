@@ -26,3 +26,17 @@ Use Terraform to create all resources. No local state.
 
 - Name: SpokeWest
 - Address Space: 192.168.99.0/24
+
+## Challenge 2
+
+Add subnets to each spoke's virtual network in a separate Terraform file.
+
+### East Subnet
+
+- name: VMSubnet1
+- Subnet: 192.168.1.0/26
+
+### West Subnet
+
+- name: VMSubnet1
+- Subnet: 192.168.99.0/26
